@@ -15,12 +15,14 @@ def main():
 
     while run:
         clock.tick(60)
-
+        WIN.fill((0, 0, 0))
+        
         for event in pygame.event.get(): 
             if event.type == pygame.QUIT:
                 run = False
 
         for planet in planets:
+            planet.update_position(planets)
             planet.draw(WIN)
 
         pygame.display.update()
