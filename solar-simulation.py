@@ -1,6 +1,6 @@
 import pygame
 import math
-from planet import Planet
+from planets import *
 from constants import *
 pygame.init()
 
@@ -11,10 +11,7 @@ def main():
     run = True
     clock = pygame.time.Clock()
 
-    sun = Planet(0, 0, 30, YELLOW, SUN_MASS)
-    sun.sun = True
-
-    planets = [sun]
+    planets = [SUN, EARTH, MARS, MERCURY, VENUS]
 
     while run:
         clock.tick(60)

@@ -4,5 +4,15 @@ AU = 149.6e6 * 1000 # Astronomical Unit
 G = 6.67428e-11 # Graviational force
 SCALE = 250 / AU # 1 AU = 100 pixels
 TIMESTEP = 3600*24 # 1 Day
-YELLOW = (255, 255, 0)
+
 SUN_MASS = 1.98892 * 10**30
+EARTH_MASS = 5.9742 * 10**24
+MARS_MASS = 6.39 * 10**23
+MERCURY_MASS = 3.30 * 10**23
+VENUS_MASS = 4.8685 * 10**24
+
+WHITE = (255, 255, 255)
+YELLOW = (255, 255, 0)
+BLUE = (100, 149, 237)
+RED = (188, 39, 50)
+DARK_GREY = (80, 78, 81)
